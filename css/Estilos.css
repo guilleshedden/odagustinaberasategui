@@ -247,7 +247,7 @@ footer {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr 0.5fr;
         grid-template-areas:
             "header"
             "main"
@@ -299,5 +299,6 @@ footer {
     .footer iframe {
         width: 250px;
         height: 150px;
+        padding-bottom: 15px;
     }
 }

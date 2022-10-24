@@ -7,17 +7,19 @@
     <title>OD Agustina Berasategui</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<a href="https://api.whatsapp.com/send?phone=5491162067179" class="btn-wsp" target="_blank">
-    <i class="fa fa-whatsapp icono"></i>
-    </a>
+<a href="https://api.whatsapp.com/send?phone=5491162067179" class="btn-wsp" target="_blank"><i class="fa fa-whatsapp icono"></i></a>
     <a href="https://instagram.com/od.agustinaberasategui?igshid=YmMyMTA2M2Y=" class="instagram" target="_blank">
     <i class="fa fa-instagram" style="font-size:36px"></i>
     </a>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../css/Estilos.css">
 </head>
 
@@ -27,22 +29,35 @@
 
     <header class="header">
         <img src="../multimedia/Logo.JPG" alt="Logo"/>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="sobre_mi.html">Sobre mí</a></li>
-                <li><a href="consultorio.html">Consultorio</a></li>
-                <li><a href="preguntas frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                
-            </ul>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/sobre_mi.html">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/consultorio.html">Consultorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/preguntas frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 </header>
 
-    
         <div class="sobremi__foto">
             
-            <img src="../multimedia/sobremi.png" alt="foto">
+            <img data-aos="fade-right" src="../multimedia/sobremi.png" alt="foto">
             <h4>Dra. Agustina Berasategui</h4>
             
         
@@ -78,8 +93,8 @@
             <div class="Horarios">
                 <h2>Horarios de atención</h2>
                 
-                <p>Lunes - Miércoles - Viernes - 15hs a 21hs</p> 
-                <p>Martes - 9hs a 14hs<p>
+                <p>Lunes - Miércoles - Viernes: 15hs a 21hs</p> 
+                <p>Martes: 9hs a 14hs<p>
             
             </div>
 
@@ -95,5 +110,11 @@
     </div>
 
     </footer>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
