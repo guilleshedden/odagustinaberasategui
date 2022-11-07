@@ -243,6 +243,23 @@ footer {
     background-color: #548A95;
 }
 
+/* CONSULTORIO */
+.fotosconsul{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    padding: 10px;
+    height: 640px;
+    width: 800px;
+    z-index: 30;
+}
+/* .carousel-inner img{
+    height: 500px;
+    width: 50px;
+
+} */
+
 @media screen and (max-width: 500px) {
     .grid {
         display: grid;
