@@ -1,59 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="<!-- agregar descricpion no copiar y pegar la descripcuon en todas las paginas -->">
+    <meta name="keywords"
+        content="odontologia, Berasategui, limpieza dental, odontologa recoleta, odontologia recoleta, tratamiento de conducto, conductos, blanqueamiento recoleta">
+    <link rel="shortcut icon" href="multimedia/Logo.ico">
     <title>OD Agustina Berasategui </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <a href="https://api.whatsapp.com/send?phone=5491162067179" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+    <a href="https://instagram.com/od.agustinaberasategui?igshid=YmMyMTA2M2Y=" class="instagram" target="_blank">
+        <i class="fa fa-instagram" style="font-size:36px"></i>
+    </a>
     <link rel="stylesheet" href="../css/Estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
+
 </head>
+
+
 <body class="fuente">
     <header>
-        <img src="../multimedia/Logo.JPG" alt="Logo"/>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="sobre_mi.html">Sobre mí</a></li>
-                <li><a href="consultorio.html">Consultorio</a></li>
-                <li><a href="preguntas frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                
-            </ul>
+
+        <img src="../multimedia/Logo.JPG" alt="Logo" />
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_mi.html">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consultorio.html">Consultorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntas frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section>
-        <form>
-            <label for="Nombre">Dime tu nombre</label> 
-            <input type="text" name="Nombre">
+    <main class="background-form">
 
-            <label for="email">Dime tu e-mail</label>
-            <input type="email" name="email">
 
-            <p>Cual es tu estado civil?</p>
-            <select name="Estado civil">
-                <option value="Casado">Casado</option>
-                <option value="Soltero">Soltero</option>
-                <option value="Divorciado">Divorciado</option>
-            </select>
-            <br>
-            <div>Acepta términos y condiciones</div>
-            <input type="checkbox" name="acepta" value="1" />
-            <p>Escibime algo, te leo...</p>
-            <textarea></textarea>
-            <input type="submit" value="Enviar formulario"/>
-            <input type="reset" value="Limpiar formulario"/>
+        <div class="container contact-form">
 
-        </form>
+            <form method="post">
+                <h3>Dejanos su mensaje</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Tu nombre *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Tu email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control"
+                                placeholder="Tu numero de telefono *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Tu mensaje *"
+                                style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
 
-    </section>
 
     <footer>
         <p>Todos los derechos reservados a OD Agustina Berasategui</p>
 
     </footer>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

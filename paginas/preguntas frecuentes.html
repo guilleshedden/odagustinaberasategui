@@ -1,55 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="<!-- agregar descricpion no copiar y pegar la descripcuon en todas las paginas -->">
+    <meta name="keywords"
+        content="odontologia, Berasategui, limpieza dental, odontologa recoleta, odontologia recoleta, tratamiento de conducto, conductos, blanqueamiento recoleta">
+    <link rel="shortcut icon" href="multimedia/Logo.ico">
     <title>OD Agustina Berasategui </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <a href="https://api.whatsapp.com/send?phone=5491162067179" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+    <a href="https://instagram.com/od.agustinaberasategui?igshid=YmMyMTA2M2Y=" class="instagram" target="_blank">
+        <i class="fa fa-instagram" style="font-size:36px"></i>
+    </a>
     <link rel="stylesheet" href="../css/Estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
 </head>
+
 <body class="fuente">
     <header>
-        <img src="../multimedia/Logo.JPG" alt="Logo"/>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="sobre_mi.html">Sobre mí</a></li>
-                <li><a href="consultorio.html">Consultorio</a></li>
-                <li><a href="preguntas frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                
-            </ul>
+        <img src="../multimedia/Logo.JPG" alt="Logo" />
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_mi.html">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consultorio.html">Consultorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntas frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section>
-        <H3>¿Cuales son los precios?</H3>
 
-        <h5>En OD Agus trabajamos con los mejores elementos</h5>
-        <table border="1" cellpadding="1" cellspacing="1">  
-            <tr>
-                <th>Tratatamiento</th>
-                <th>Tiempo</th>
-                <th>Precio</th>
-            </tr>
-            
-            <tr>  
-                <td>Conducto</td>   
-                <td>90 minutos</td>   
-                <td>$10.000</td>  
-            </tr>
-            <tr>  
-                <td>Limpieza</td>   
-                <td>15 minutos</td>   
-                <td>$7.800</td>  
-            </tr>
-        </table>
+
+    <section class="section-preguntas">
+        <h3 class="text-center mb-4 pb-2 fw-bold colorpreguntas">PREGUNTAS FRECUENTES</h3>
+        <p class="text-center mb-5">
+            Aquí encontrarás las preguntas más frecuentes. Cualquier otra duda adicional nos puedes
+            contactar.
+        </p>
+
+        <div class="row preguntas">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="far fa-paper-plane pe-2"></i> ¿A qué edad es bueno acudir al
+                    odontólogo?</h6>
+                <p>
+                    Se recomienda acudir a la primera revisión a partir de los 4-5 años
+                    (siempre y cuando antes no se observe ninguna alteración o molestia en los dientes).
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="fas fa-pen-alt pe-2"></i> ¿Para qué sirve la revisión dental y
+                cuál sería la periodicidad recomendada?</h6>
+                <p>
+                    La revisión dental consiste en una inspección intraoral de los dientes, encías y tejidos blandos (mejillas, labios y lengua) para identificar y/o descartar algún problema bucodental a tiempo. La periodicidad varía según cada persona y su estado bucodental, 
+                    pero para un individuo sano se recomienda una revisión cada 6 meses.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="fas fa-user pe-2"></i> ¿Cuántas veces  y cuándo debo cepillarme los dientes?
+
+                </h6>
+                <p>
+                    Los dientes deben cepillarse siempre después de cada comida. Por lo general, los cepillados 
+                    más importantes son después del desayuno, después de la comida y después de la cena.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="fas fa-rocket pe-2"></i> ¿Qué es la sensibilidad dental?
+                </h6>
+                <p>
+                    La sensibilidad dental suele estar provocada por una apertura de los túbulos dentinarios del esmalte (a nivel microscópico) que permiten la entrada de los diferentes cambios químicos y térmicos que se producen en la boca. También las recesiones de encía que deja expuesta la dentina radicular 
+                    provocan mayor hipersensibilidad dental a estos mismos cambios.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="fas fa-home pe-2"></i> ¿Que medios de pago aceptan?
+                </h6>
+                <p><strong><u>Todos</u>.</strong> efectivo, tarjeta, Mercado Pago, transferencia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 colorpreguntas"><i class="fas fa-book-open pe-2"></i> ¿A donde me puedo contactar para
+                reservar un turno?</h6>
+                <p>
+                    Podes hacer click en el icono de Whatsapp que tenes a tu derecha o al 11-1111 111.
+                </p>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>Todos los derechos reservados a OD Agustina Berasategui</p>
 
+    <footer>
+        <div class="footer">
+            <div class="Mapa">
+                <h2>Ubicación del consultorio</h2>
+                <h5>Estamos en Sanchez de Bustamante 1818, CABA</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.566867412468!2d-58.41303917982649!3d-34.58982461091514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83828361b3%3A0x1d8896f1da378940!2sS%C3%A1nchez%20de%20Bustamante%201818%2C%20C1425DUL%20CABA!5e0!3m2!1ses-419!2sar!4v1664586004592!5m2!1ses-419!2sar"
+                    width="300" height="150" style="border: 0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="Horarios">
+                <h2>Horarios de atención</h2>
+
+                <p>Lunes - Miércoles - Viernes: 15hs a 21hs</p>
+                <p>Martes: 9hs a 14hs
+                <p>
+
+            </div>
+
+            <div class="Redes-sociales">
+
+            </div>
+        </div>
+
+        <div class="derechos">
+            <small>&copy;2023 <b>OD Agustina Berasategui</b> - Todos los derechos reservados</small>
+        </div>
+
+        </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
